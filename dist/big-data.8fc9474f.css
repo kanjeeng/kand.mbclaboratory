@@ -1,0 +1,234 @@
+@keyframes pulsate {
+  0% {
+    transform-origin: center;
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+
+@keyframes wobble-hor-bottom {
+  0%, to {
+    transform-origin: 50%;
+    transform: translateX(0);
+  }
+
+  15% {
+    transform: translateX(-30px)rotate(-6deg);
+  }
+
+  30% {
+    transform: translateX(15px)rotate(6deg);
+  }
+
+  45% {
+    transform: translateX(-15px)rotate(-3.6deg);
+  }
+
+  60% {
+    transform: translateX(9px)rotate(2.4deg);
+  }
+
+  75% {
+    transform: translateX(-6px)rotate(-1.2deg);
+  }
+}
+
+.big-data {
+  letter-spacing: -.04em;
+  font-weight: 600;
+  line-height: 80px;
+  position: absolute;
+  top: 30px;
+  left: 515px;
+}
+
+.big-data-wrapper, .header1 {
+  width: 1440px;
+  height: 140px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header1 {
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  top: 157px;
+  left: -7px;
+}
+
+.big-data-adalah {
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.blank-line12 {
+  margin: 0;
+}
+
+.big-data-adalah-container {
+  letter-spacing: -.02em;
+  color: var(--color-darkslategray);
+  text-align: justify;
+  width: 944px;
+  font-weight: 600;
+  line-height: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 804px;
+  left: 241px;
+}
+
+.place-image-here34 {
+  border-radius: var(--br-5xl);
+  background-color: var(--dark-000);
+  opacity: 1;
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  top: 85px;
+  left: 237px;
+  box-shadow: 8px 40px 80px -16px #00000080;
+}
+
+.place-image-here34.animate {
+  animation: 1s infinite forwards pulsate;
+}
+
+.bigdata-icon1 {
+  border-radius: var(--br-21xl);
+  object-fit: cover;
+  width: 332px;
+  height: 332px;
+  position: absolute;
+  top: 333px;
+  left: 547px;
+}
+
+.bigdata-icon1:hover {
+  opacity: 1;
+  animation: 1s infinite wobble-hor-bottom;
+}
+
+.place-image-here35, .place-image-here36 {
+  border-radius: var(--br-13xl);
+  background-color: var(--dark-000);
+  opacity: 1;
+  width: 132px;
+  height: 132px;
+  position: absolute;
+  top: 119px;
+  left: 1138px;
+  box-shadow: 8px 40px 80px -16px #00000080;
+}
+
+.place-image-here35.animate, .place-image-here36.animate, .place-image-here37.animate, .place-image-here38.animate {
+  animation: 1s infinite forwards pulsate;
+}
+
+.place-image-here36 {
+  background-color: var(--color-white);
+  width: 164px;
+  height: 164px;
+  top: 267px;
+  left: 121px;
+  box-shadow: 12px 32px 80px -20px #0000001f;
+}
+
+.place-image-here37, .place-image-here38 {
+  border-radius: var(--br-21xl);
+  background-color: var(--dark-000);
+  opacity: 1;
+  width: 264px;
+  height: 264px;
+  position: absolute;
+  top: 431px;
+  left: 1006px;
+  box-shadow: 8px 40px 80px -16px #00000080;
+}
+
+.place-image-here38 {
+  border-radius: var(--br-13xl);
+  background-color: var(--color-white);
+  width: 196px;
+  height: 196px;
+  top: 499px;
+  left: 285px;
+  box-shadow: 12px 32px 80px -20px #0000001f;
+}
+
+.logombc-1-icon5 {
+  object-fit: cover;
+  width: 177px;
+  height: 37px;
+  position: absolute;
+  top: 25px;
+  left: 193px;
+}
+
+.weattackweprotect5 {
+  letter-spacing: -.04em;
+  text-align: center;
+  font-weight: 600;
+  line-height: 80px;
+  position: absolute;
+  top: 0;
+  left: 1070px;
+}
+
+.about5, .contact5, .field5, .home6 {
+  letter-spacing: -.01em;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 20px;
+  position: absolute;
+  top: 33px;
+  left: 546px;
+}
+
+.about5, .contact5, .field5 {
+  font-weight: 800;
+  left: 642px;
+}
+
+.about5, .contact5 {
+  font-weight: 500;
+  left: 730px;
+}
+
+.about5 {
+  left: 846px;
+}
+
+.bigdata {
+  background-color: var(--color-whitesmoke);
+  text-align: left;
+  font-size: var(--b4-2-semibold-size);
+  color: var(--dark-000);
+  font-family: var(--b4-2-semibold);
+  width: 100%;
+  height: 1280px;
+  position: relative;
+  overflow: hidden;
+}
+/*# sourceMappingURL=big-data.8fc9474f.css.map */

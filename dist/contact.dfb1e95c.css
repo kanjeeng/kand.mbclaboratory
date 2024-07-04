@@ -1,0 +1,232 @@
+@keyframes slide-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.place-image-here44 {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray);
+  width: 1098px;
+  height: 598px;
+  position: absolute;
+  top: 145px;
+  left: 151px;
+}
+
+.contact-child {
+  background-color: var(--color-whitesmoke);
+  border-radius: 50%;
+  width: 839px;
+  height: 746px;
+  position: absolute;
+  top: -17px;
+  left: 85px;
+}
+
+.devan, .sok8073r {
+  letter-spacing: -.02em;
+  width: 529px;
+  height: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 439px;
+  left: 322px;
+}
+
+.sok8073r {
+  top: 608px;
+}
+
+.mbclab {
+  color: inherit;
+  text-decoration: none;
+  top: 555px;
+}
+
+.contact-mbc-lab, .laboratorymbcgmailcom, .mbclab, .tult-1304 {
+  letter-spacing: -.02em;
+  width: 529px;
+  height: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  display: inline-block;
+  position: absolute;
+  left: 322px;
+}
+
+.laboratorymbcgmailcom {
+  color: inherit;
+  text-decoration: none;
+  top: 498px;
+}
+
+.contact-mbc-lab, .tult-1304 {
+  top: 380px;
+}
+
+.contact-mbc-lab {
+  font-size: var(--font-size-45xl);
+  letter-spacing: -.04em;
+  width: 958px;
+  height: 65px;
+  font-weight: 800;
+  line-height: 80px;
+  top: 248px;
+  left: 262px;
+}
+
+.customerservice-1-icon {
+  object-fit: cover;
+  opacity: 0;
+  width: 602px;
+  height: 505px;
+  position: absolute;
+  top: 307px;
+  left: 739px;
+}
+
+.customerservice-1-icon.animate {
+  animation: 1s forwards slide-in-left;
+}
+
+.image-2-icon {
+  object-fit: cover;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: 487px;
+  left: 272px;
+}
+
+.jl-telekomunikasi-no {
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.jl-telekomunikasi-no-container {
+  letter-spacing: -.02em;
+  width: 529px;
+  height: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 326px;
+  left: 274px;
+}
+
+.contact-item {
+  border-right: 1px solid var(--dark-000);
+  box-sizing: border-box;
+  width: 1px;
+  height: 6px;
+  position: absolute;
+  top: 555.5px;
+  left: 502.5px;
+}
+
+.image-3-icon, .image-5-icon {
+  object-fit: cover;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: 369px;
+  left: 272px;
+}
+
+.image-5-icon {
+  cursor: pointer;
+  width: 38px;
+  height: 38px;
+  top: 546px;
+  left: 274px;
+}
+
+.image-6-icon, .image-7-icon, .logombc-1-icon7 {
+  object-fit: cover;
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  top: 601px;
+  left: 271px;
+}
+
+.image-7-icon, .logombc-1-icon7 {
+  width: 42px;
+  height: 42px;
+  top: 428px;
+  left: 272px;
+}
+
+.logombc-1-icon7 {
+  width: 177px;
+  height: 37px;
+  top: 25px;
+  left: 193px;
+}
+
+.weattackweprotect7 {
+  font-size: var(--b4-2-semibold-size);
+  letter-spacing: -.04em;
+  color: var(--dark-000);
+  text-align: center;
+  font-weight: 600;
+  line-height: 80px;
+  position: absolute;
+  top: 0;
+  left: 1070px;
+}
+
+.home8 {
+  cursor: pointer;
+  font-weight: 500;
+  left: 546px;
+}
+
+.about7, .contact8, .field7, .home8 {
+  font-size: var(--b4-2-semibold-size);
+  letter-spacing: -.01em;
+  color: var(--dark-000);
+  line-height: 20px;
+  position: absolute;
+  top: 33px;
+}
+
+.field7 {
+  cursor: pointer;
+  font-weight: 500;
+  left: 642px;
+}
+
+.about7, .contact8 {
+  font-weight: 800;
+  left: 730px;
+}
+
+.about7 {
+  cursor: pointer;
+  font-weight: 500;
+  left: 846px;
+}
+
+.contact7 {
+  background-color: var(--color-whitesmoke);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkslategray);
+  font-family: var(--b4-2-semibold);
+  width: 100%;
+  height: 809px;
+  position: relative;
+  overflow: hidden;
+}
+/*# sourceMappingURL=contact.dfb1e95c.css.map */
